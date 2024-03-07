@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------------------ META TAGS ------------------------------------->
+    <title>Cancel Cats</title>
+    <meta name="title" content="Cancel Cats" />
+    <meta name="description" content="Cancel Cats landing page " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Cancel Cats" />
+    <meta property="og:description" content="Cancel Cats landing page " />
+    <meta property="og:image" content="https://images2.imgbox.com/6b/7c/E5nqhrYJ_o.png" />
+    <!------------------------------ FAVICON ------------------------------------->
+    <link rel="apple-touch-icon" sizes="57x57" href="./Assets/images/png/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./Assets/images/png/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./Assets/images/png/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./Assets/images/png/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./Assets/images/png/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./Assets/images/png/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./Assets/images/png/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./Assets/images/png/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Assets/images/png/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./Assets/images/png/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/images/png/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./Assets/images/png/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/images/png/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./Assets/images/png/favicons/manifest.json">
+    <!------------------------------ CSS ------------------------------------->
+    <link rel="stylesheet" href="./Assets/css/main.css">
+    <!------------------------------ BOOTSTRAP ------------------------------------->
+    <link rel="stylesheet" href="./Assets/css/root.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!------------------------------ SLICK SLIDER ------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!------------------------------ NAVBAR ------------------------------------->
+    <section>
+        <div class="top_line w-100 ">
+        </div>
+        <nav class="bg_black_clr">
+            <div class=" container container_nav">
+                <div class="d-flex justify-content-between align-items-center  py_10">
+                    <div class="d-none d-lg-block">
+                        <a href="#About"><img class=" scale_hover" src="./Assets/images/svg/about.svg"
+                                alt="a"></a>
+                        <a href="#Nfts"><img class=" scale_hover" src="./Assets/images/svg/Nfts.svg" alt="a"></a>
+                        <a href="#RoadMap"><img class=" scale_hover" src="./Assets/images/svg/Roadmap.svg" alt="a"></a>
+                        <a href="#Team"><img class=" scale_hover" src="./Assets/images/svg/Team.svg" alt="a"></a>
+                        <a href="#Community"><img class=" scale_hover" src="./Assets/images/svg/Community.svg"
+                                alt="a"></a>
+                        <a href="#Faqs"><img class=" scale_hover" src="./Assets/images/svg/FAQS.svg" alt="a"></a>
+                    </div>
+                    <div class=" align-items-center d-none d-sm-flex">
+                        <div class=" gap_15  d-none d-sm-flex ">
+                            <a href="https://twitter.com/home"><img class="w_logo_custom hover_green"
+                                    src="./Assets/images/png/twitter.png" alt="a"></a>
+                            <a href="https://web.telegram.org/k/"><img class="w_logo_custom hover_purple"
+                                    src="./Assets/images/png/telegram.png" alt="a"></a>
+                            <a href="https://discord.com/"><img class="w_logo_custom hover_blue"
+                                    src="./Assets/images/png/discord.png" alt="a"></a>
+                            <a href="https://www.instagram.com/"><img class="w_logo_custom hover_orange"
+                                    src="./Assets/images/png/insta.png" alt="a"></a>
+                        </div>
+                        <button
+                            class=" text-white ff_brandon fw-normal line-h-28 fs_xl connect_btn ms-4 d-none d-lg-block ">
+                            <p class=" mt-1 mb-0">Connect
+                                Wallet</p>
+                        </button>
+                    </div>
+                    <button class=" text-white ff_brandon fw-normal line-h-28 fs_xl connect_btn   d-lg-none ">
+                        <p class=" mt-1 mb-0">Connect
+                            Wallet</p>
+                    </button>
+
+                    <button id="openNav" onclick="openNav()" class="menu d-lg-none clr_green"
+                        type="button">&#9776</button>
+                    <div id="Menu"
+                        class="d-xl-none navbar1 d-flex justify-content-center align-items-center text-center">
+                        <button class="menu position-absolute closbtn  clr_green" onclick="closeNav()"
+                            type="button">&times;</button>
+                        <div class=" d-flex flex-column">
+                            <a onclick="closeNav()" href="#About"><img src="./Assets/images/svg/about.svg"
+                                    alt="a"></a>
+                            <a onclick="closeNav()" href="#Nfts"><img src="./Assets/images/svg/Nfts.svg" alt="a"></a>
+                            <a onclick="closeNav()" href="#RoadMap"><img src="./Assets/images/svg/Roadmap.svg"
+                                    alt="a"></a>
+                            <a onclick="closeNav()" href="#Team"><img src="./Assets/images/svg/Team.svg" alt="a"></a>
+                            <a onclick="closeNav()" href="#Community"><img src="./Assets/images/svg/Community.svg"
+                                    alt="a"></a>
+                            <a onclick="closeNav()" href="#Faqs"><img src="./Assets/images/svg/FAQS.svg" alt="a"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!------------------------------ HERO SECTION ------------------------------------->
+    <section class=" overflow_x_hidden">
+        <div class="bg_text">
+            <div class="container py_10 py_20 ">
+                <img class=" w-100" src="./Assets/images/png/cancel_cats.png" alt="">
+            </div>
+        </div>
+        <div class=" bg_hero d-flex justify-content-center align-items-center flex-column position-relative  ">
+            <img class=" position-absolute space_ship_position" src="./Assets/images/png/space-ship.png" alt="">
+            <img class=" position-absolute drone_position1 " src="./Assets/images/png/drone_pic.png" alt="">
+            <img class=" position-absolute drone_position3 " src="./Assets/images/png/drone_pic.png" alt="">
+            <img class=" position-absolute drone_position2 " src="./Assets/images/png/drone_pic.png" alt="">
+            <img class=" position-absolute drone_position4 " src="./Assets/images/png/drone_pic.png" alt="">
+            <img class=" transfrom_332 cat_width " src="./Assets/images/png/cat_pic.png" alt="">
+            <img class=" w-100 mt_custom_island z_10" src="./Assets//images/png/hero_island.png " alt="">
+        </div>
+    </section>
+    <!------------------------------ CANCEL CATS NAME SLIDER ------------------------------------->
+    <section>
+        <div class="top_line w-100 box_shadow ">
+        </div>
+        <div class="slider-container">
+            <div class="d-flex gap-4 justify-content-center slider py_custom_slider ">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+                <img class="cancel_text" src="./Assets/images/png/cancel_cats.png" alt="">
+            </div>
+        </div>
+        <div class="top_line w-100 box_shadow">
+        </div>
+    </section>
+    <!------------------------------ BLACK BG PIC ------------------------------------->
+    <section class="bg_black">
+        <!------------------------------ 4 PICS ONLY ------------------------------------->
+        <section class=" py_nfts ">
+            <div class="container custom_container px-0">
+                <div class="d-flex  flex-wrap px_9 py_row_12 justify-content-center align-items-center">
+                    <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4 ">
+                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                    </div>
+                    <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4">
+                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                    </div>
+                    <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4">
+                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                    </div>
+                    <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4">
+                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------ ABOUT US ------------------------------------->
+        <section class="  pb_150">
+            <div class="container custom_container" id="About">
+                <div class="row align-items-center">
+                    <div class="col-12 custom_width1">
+                        <p class=" fw-normal fs_4xl  line_h_71 ff_brandon text-white mb-0 ">About Us</p>
+                        <p class=" fw-normal fs_md line_h_31 text-white ff_sniglet m-0 text_justify max_w_554">Commodo
+                            ut
+                            sit tincidunt gravida. A a id aliquam faucibus non sagittis odio semper congue. In phasellus
+                            quam turpis viverra dolor posuere. Pellentesque dui habitant aenean elit. Pretium eget
+                            gravida
+                            mi, nisl orci purus pulvinar lorem nisl. Faucibus tortor consequat ac ac nulla euismod est
+                            eget
+                            varius. Id viverra sem at vel dis nibh. Habitasse ut neque, vel senectus. Et nunc volutpat
+                            ultricies ut est, pellentesque ullamcorper. Vitae egestas maecenas tincidunt aliquet amet,
+                            id id
+                            suscipit metus. Nunc magna nam arcu ultrices.</p>
+                        <p class=" fw-normal fs_md line_h_31 text-white ff_sniglet m-0 text_justify max_w_554 ">Pulvinar
+                            ullamcorper euismod aliquet id eu tempus fusce eu. Elementu arcu habitant sit pellentesque.
+                            Sed
+                            sed parturient pharetra lacus. Pellentesque sit non tempor nunc, neque atd aliquet id eu.
+                        </p>
+                        <button class="text-white ff_brandon fw-normal line-h-28 fs_xl mint_btn mt_lg_40">Mint
+                            Now</button>
+                    </div>
+                    <div class="col-12 custom_width2 mt-5 mt-lg-0">
+                        <div class=" bg-white p-2 border_radius_8">
+                            <img class=" w-100 " src="./Assets/images/png/nfts_gif.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------ NFT GALLERY ------------------------------------->
+        <section class=" pb_150  overflow-hidden" id="Nfts">
+            <p class="mx-auto fw-normal fs_4xl  line_h_71 ff_brandon text-white text-center mb-0">Our NFTs</p>
+            <div class="gap_20 myslider ">
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_20 pt_150  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_40   ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_110   ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_80  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_140  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt-3  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_110  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_28  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!------------------------------ ROADMAP ------------------------------------->
+        <section class="  pb_150 " id="RoadMAp">
+            <p class="mx-auto fw-normal fs_4xl  line_h_71 ff_brandon text-white text-center mb-0 pb_88">RoadMAp</p>
+            <div class="bg_line">
+                <div class="container custom_container">
+                    <div class="row">
+                        <div
+                            class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start flex-column align-items-center align-items-sm-start">
+                            <img class="roadmappic_size" src="./Assets/images/png/roadmap_1.png" alt="">
+                        </div>
+                        <div
+                            class="col-12 col-sm-6  d-flex justify-content-center justify-content-sm-end  pt_149  pt_295 my-3 my-sm-0 ">
+                            <img class="roadmappic_size" src="./Assets/images/png/roadmap_2.png" alt="">
+                        </div>
+                        <div
+                            class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start flex-column align-items-center align-items-sm-start">
+                            <img class="roadmappic_size" src="./Assets/images/png/roadmap_3.png" alt="">
+                        </div>
+                        <div
+                            class="col-12 col-sm-6 pt_149 pt_295   d-flex justify-content-center justify-content-sm-end  ">
+                            <img class="roadmappic_size p-3" src="./Assets/images/png/roadmap_4.png" alt="">
+                        </div>
+                        <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start">
+                            <img class="roadmappic_size p-3" src="./Assets/images/png/roadmap_5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------ TEAM ------------------------------------->
+        <section id="Team">
+            <p class="mx-auto fw-normal fs_4xl  line_h_71 ff_brandon text-white text-center pb-0 pb-sm-2 mb-0">Team</p>
+            <div class="container custom_container">
+                <div class="row justify-content-center ">
+                    <div class=" col-12 col-sm-6 col-lg-4 pt-5 pt-sm-4">
+                        <div class=" d-flex align-items-center text-center justify-content-center flex-column">
+                            <img class=" w-100" src="./Assets/images/png/team_pic1.png" alt="">
+                            <p class=" ff_sniglet fw-normal fs_base line_h_19 team_position m-0  pt-3 pb-2">CEO</p>
+                            <p class=" fw-normal fs_2xl line_h_28 ff_brandon text-white m-0">Fhahroz Iqbal</p>
+                            <p class=" ff_sniglet fw-normal fs_base line_h_24 text-white m-0 pt-1 pb_12">Donec consequat
+                                semper mauris
+                                quis
+                                faucibus. Aliquam imperdiet augue dapibus.</p>
+                            <div class=" gap_15 d-flex">
+                                <a href="https://twitter.com/home"><img class="w_logo_custom hover_green"
+                                        src="./Assets/images/png/twitter.png" alt="a"></a>
+                                <a href="https://web.telegram.org/k/"><img class="w_logo_custom hover_purple"
+                                        src="./Assets/images/png/telegram.png" alt="a"></a>
+                                <a href="https://discord.com/"><img class="w_logo_custom hover_blue"
+                                        src="./Assets/images/png/discord.png" alt="a"></a>
+                                <a href="https://www.instagram.com/"><img class="w_logo_custom hover_orange"
+                                        src="./Assets/images/png/insta.png" alt="a"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-6 col-lg-4 pt-5 pt-sm-4">
+                        <div class=" d-flex align-items-center text-center justify-content-center flex-column">
+                            <img class=" w-100" src="./Assets/images/png/team_pic1.png" alt="">
+                            <p class=" ff_sniglet fw-normal fs_base line_h_19 team_position m-0  pt-3 pb-2">CEO</p>
+                            <p class=" fw-normal fs_2xl line_h_28 ff_brandon text-white m-0">Fhahroz Iqbal</p>
+                            <p class=" ff_sniglet fw-normal fs_base line_h_24 text-white m-0 pt-1 pb_12">Donec consequat
+                                semper mauris
+                                quis
+                                faucibus. Aliquam imperdiet augue dapibus.</p>
+                            <div class=" gap_15 d-flex">
+                                <a href="https://twitter.com/home"><img class="w_logo_custom hover_green"
+                                        src="./Assets/images/png/twitter.png" alt="a"></a>
+                                <a href="https://web.telegram.org/k/"><img class="w_logo_custom hover_purple"
+                                        src="./Assets/images/png/telegram.png" alt="a"></a>
+                                <a href="https://discord.com/"><img class="w_logo_custom hover_blue"
+                                        src="./Assets/images/png/discord.png" alt="a"></a>
+                                <a href="https://www.instagram.com/"><img class="w_logo_custom hover_orange"
+                                        src="./Assets/images/png/insta.png" alt="a"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-6 col-lg-4 pt-5 pt-sm-4">
+                        <div class=" d-flex align-items-center text-center justify-content-center flex-column">
+                            <img class=" w-100" src="./Assets/images/png/team_pic1.png" alt="">
+                            <p class=" ff_sniglet fw-normal fs_base line_h_19 team_position m-0  pt-3 pb-2">CEO</p>
+                            <p class=" fw-normal fs_2xl line_h_28 ff_brandon text-white m-0">Fhahroz Iqbal</p>
+                            <p class=" ff_sniglet fw-normal fs_base line_h_24 text-white m-0 pt-1 pb_12">Donec consequat
+                                semper mauris
+                                quis
+                                faucibus. Aliquam imperdiet augue dapibus.</p>
+                            <div class=" gap_15 d-flex">
+                                <a href="https://twitter.com/home"><img class="w_logo_custom hover_green"
+                                        src="./Assets/images/png/twitter.png" alt="a"></a>
+                                <a href="https://web.telegram.org/k/"><img class="w_logo_custom hover_purple"
+                                        src="./Assets/images/png/telegram.png" alt="a"></a>
+                                <a href="https://discord.com/"><img class="w_logo_custom hover_blue"
+                                        src="./Assets/images/png/discord.png" alt="a"></a>
+                                <a href="https://www.instagram.com/"><img class="w_logo_custom hover_orange"
+                                        src="./Assets/images/png/insta.png" alt="a"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------ JOIN COMMUNITY ------------------------------------->
+        <section class="mt_custom_join pb_150" id="Community">
+            <div class="bg_purple">
+                <div class="top_line w-100 box_shadow  position-relative">
+                    <img class=" two_bird_position d-none d-sm-block" src="./Assets/images/png/two_birds.png" alt="">
+                </div>
+                <div class="container custom_container ">
+                    <div class="row">
+                        <div class=" col-12 col-md-6 position-relative order-2 ">
+                            <img class=" cat_pic_position" src="./Assets/images/png/cat_pic_join.png" alt="">
+                        </div>
+                        <div class=" col-12 col-md-6 py_44 order-md-2">
+                            <p class=" ff_brandon fw-normal fs_4xl line_h_57 text-white  join_dropshadow m-0">
+                                Join Our<span class=" d-lg-block"> Community Now!</span></p>
+                            <p class=" ff_sniglet fw-normal fs_md line_h_31 text-white m-0">Commodo ut sit tincidunt
+                                gravida. A a id aliquam faucibus non sagittis odio semper cam turpis viverra dolor
+                                posuere
+                            </p>
+                            <button
+                                class=" d-flex gap-2 ff_brandon fw-normal fs_xl line_h_28 align-items-center  text-white join_btn border-0 mt_48"><img
+                                    src="./Assets/images/svg/discord.svg" alt="">Join Community</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="top_line w-100 box_shadow ">
+                </div>
+            </div>
+        </section>
+        <!------------------------------ FOOTER  ------------------------------------->
+        <footer class="" id="Faqs">
+            <div class="container footer_container">
+                <p class="mx-auto fw-normal fs_4xl  line_h_71 ff_brandon text-white text-center pb_35 mb-0">FAQs</p>
+                <div class="accordion gap_35 d-flex flex-column accordion-flush pb_235" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Q1. Eget faucibus non id neque?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Q2. Diam in elementum sodales convallis integer tellus cursus eu?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Q3. Suspendisse pellentesque metus, odio nullam consectetur?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Q4. Auctor adipiscing odio in adipiscing id?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsefour" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingfive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                aria-controls="flush-collapsefive">
+                                Q5. Nisl morbi egestas imperdiet est est commodo? </button>
+                        </h2>
+                        <div id="flush-collapsefive" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingsix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsesix" aria-expanded="false"
+                                aria-controls="flush-collapsesix">
+                                Q6. Quisque egestas eu eu, dui turpis in? </button>
+                        </h2>
+                        <div id="flush-collapsesix" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingseven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseseven" aria-expanded="false"
+                                aria-controls="flush-collapseseven">
+                                Q7. Id neque, ante sapien tellus faucibus?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseseven" class="accordion-collapse collapse border_2"
+                            aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Facilisis aliquet volutpat, ut sit sapien. Amet, aliquet donec
+                                semper quam quam. Neque sapien, lectus nisi ut et. Facilisis aliquet volutpat, ut sit
+                                sapien. Amet, aliquet donec semper quam quam. Neque sapien, lectus nisi ut et.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" flex-column d-flex justify-content-center align-items-center text-center ">
+                    <div>
+                        <img class=" pb-lg-3 pb-0" src="./Assets/images/png/footer_logo.png" alt="">
+                    </div>
+                    <ul class="d-flex mb-0 flex-wrap justify-content-center text-center align-items-center gap_30 ps-0">
+                        <li><a href="#About"
+                                class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">About</a>
+                        </li>
+                        <li><a href="#Nfts"
+                                class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">Our
+                                NFTs</a></li>
+                        <li><a href="#RoadMap"
+                                class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">RoadMAp</a>
+                        </li>
+                        <li><a href="#Team"
+                                class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">Team</a>
+                        </li>
+                        <li><a href="#Faqs"
+                                class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">FAQs</a>
+                        </li>
+                    </ul>
+                    <div class=" gap_15 d-flex pt_28 pb_35">
+                        <a href="https://twitter.com/home"><img class="w_logo_custom hover_green"
+                                src="./Assets/images/png/twitter.png" alt="a"></a>
+                        <a href="https://web.telegram.org/k/"><img class="w_logo_custom hover_purple"
+                                src="./Assets/images/png/telegram.png" alt="a"></a>
+                        <a href="https://discord.com/"><img class="w_logo_custom hover_blue"
+                                src="./Assets/images/png/discord.png" alt="a"></a>
+                        <a href="https://www.instagram.com/"><img class="w_logo_custom hover_orange"
+                                src="./Assets/images/png/insta.png" alt="a"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="top_line w-100 box_shadow">
+            </div>
+            <p class="py_14 ff_sniglet fw-normal fs_base line_h_19 text-center mx-auto copyright_color mb-0">Copyright @
+                2022</p>
+        </footer>
+    </section>
+    <!------------------------------ SCRIPTS FOR SLICK SLIDER ------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.myslider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 6.6,
+            slidesToScroll: 3,
+            autoplay: false,
+            speed: 1000,
+            responsive: [
+                {
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 4.7,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+
+                {
+                    breakpoint: 993,
+                    settings: {
+                        slidesToShow: 4.5,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 3.4,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2.7,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <!------------------------------ NAVBAR FUNCTION ------------------------------------->
+    <script>
+        function openNav() {
+            document.getElementById("Menu").style.left = "0%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+        }
+        function closeNav() {
+            document.getElementById("Menu").style.left = "-100%";
+            document.getElementsByTagName("body")[0].style.overflow = "scroll";
+        }  
+    </script>
+    <!------------------------------ BOOTSTRAP SCRIPT ------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
