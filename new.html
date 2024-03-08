@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +43,26 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class=" overflow-hidden">
+    <!------------------------------ BACK TO TOP ------------------------------------->
+    <div class="my-container">
+        <a id="button">
+            <svg width="20" height="20" fill="black" viewBox="0 0 16 16">
+                <path fillRule="evenodd"
+                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
+                </path>
+                <path fillRule="evenodd"
+                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+                </path>
+            </svg>
+        </a>
+    </div>
+    <!------------------------------ PRELOADER ------------------------------------->
+    <div id="preloader" class="overflow-hidden">
+        <div id="preloader_bg" class="d-flex align-items-center justify-content-center z-1000">
+            <img class="preloader_img cursor" src="./Assets/images/png/cancel_cats.png" alt="logo">
+        </div>
+    </div>
     <!------------------------------ NAVBAR ------------------------------------->
     <section>
         <div class="top_line w-100 ">
@@ -51,10 +71,9 @@
             <div class=" container container_nav">
                 <div class="d-flex justify-content-between align-items-center  py_10">
                     <div class="d-none d-lg-block">
-                        <a href="#About"><img class=" scale_hover" src="./Assets/images/svg/about.svg"
-                                alt="a"></a>
+                        <a href="#About"><img class=" scale_hover" src="./Assets/images/svg/about.svg" alt="a"></a>
                         <a href="#Nfts"><img class=" scale_hover" src="./Assets/images/svg/Nfts.svg" alt="a"></a>
-                        <a href="#RoadMap"><img class=" scale_hover" src="./Assets/images/svg/Roadmap.svg" alt="a"></a>
+                        <a href="#RoadMAp"><img class=" scale_hover" src="./Assets/images/svg/Roadmap.svg" alt="a"></a>
                         <a href="#Team"><img class=" scale_hover" src="./Assets/images/svg/Team.svg" alt="a"></a>
                         <a href="#Community"><img class=" scale_hover" src="./Assets/images/svg/Community.svg"
                                 alt="a"></a>
@@ -89,8 +108,7 @@
                         <button class="menu position-absolute closbtn  clr_green" onclick="closeNav()"
                             type="button">&times;</button>
                         <div class=" d-flex flex-column">
-                            <a onclick="closeNav()" href="#About"><img src="./Assets/images/svg/about.svg"
-                                    alt="a"></a>
+                            <a onclick="closeNav()" href="#About"><img src="./Assets/images/svg/about.svg" alt="a"></a>
                             <a onclick="closeNav()" href="#Nfts"><img src="./Assets/images/svg/Nfts.svg" alt="a"></a>
                             <a onclick="closeNav()" href="#RoadMap"><img src="./Assets/images/svg/Roadmap.svg"
                                     alt="a"></a>
@@ -157,16 +175,16 @@
             <div class="container custom_container px-0">
                 <div class="d-flex  flex-wrap px_9 py_row_12 justify-content-center align-items-center">
                     <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4 ">
-                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                        <img class="w-100 scale_nft" src="./Assets/images/png/Catz_nft1.png" alt="">
                     </div>
                     <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4">
-                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                        <img class="w-100 scale_nft" src="./Assets/images/png/Catz_nft2.png" alt="">
                     </div>
                     <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4">
-                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                        <img class="w-100 scale_nft" src="./Assets/images/png/Catz_nft3.png" alt="">
                     </div>
                     <div class=" col-12 col-sm-6 col-md-4  w-33_33 py_col_12 pt-4">
-                        <img class=" w-100" src="./Assets/images/png/Catz_nft1.png" alt="">
+                        <img class="w-100 scale_nft" src="./Assets/images/png/Catz_nft4.png" alt="">
                     </div>
                 </div>
             </div>
@@ -206,56 +224,56 @@
         </section>
         <!------------------------------ NFT GALLERY ------------------------------------->
         <section class=" pb_150  overflow-hidden" id="Nfts">
-            <p class="mx-auto fw-normal fs_4xl  line_h_71 ff_brandon text-white text-center mb-0">Our NFTs</p>
+            <p class="mx-auto fw-normal fs_4xl  line_h_71 ff_brandon text-white text-center mb-0 ">Our NFTs</p>
             <div class="gap_20 myslider ">
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_20 pt_150  ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class=" my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_150_lg  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.2.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery1.3.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery1.4.png" alt="">
                 </div>
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_40   ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_40   ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery2.1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery2.2.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery2.3.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery2.4.png" alt="">
                 </div>
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_110   ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_110   ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery3.1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery3.2.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery3.3.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery3.4.png" alt="">
                 </div>
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_80  ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_80  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery4.1.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery4.2.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery1.1.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery1.2.png" alt="">
                 </div>
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_140  ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_140  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.3.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.4.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery2.1.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery2.2.png" alt="">
                 </div>
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt-3  ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt-0 pt-lg-3  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery2.3.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery2.4.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery3.1.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery3.2.png" alt="">
                 </div>
 
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_110  ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_110  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery3.3.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery3.4.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery4.1.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery4.2.png" alt="">
                 </div>
-                <div class="align-items-center ustify-content-center d-flex flex-column gap_25 pt_28  ">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
-                    <img class="nft_size" src="./Assets/images/png/nft_gallery1.png" alt="">
+                <div class="my-3 my-lg-0 align-items-center ustify-content-center d-flex flex-column gap_25 pt_28_lg  ">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery2.3.png" alt="">
+                    <img class="nft_size" src="./Assets/images/png/nft_gallery2.4.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery3.1.png" alt="">
+                    <img class="nft_size d-none d-sm-block" src="./Assets/images/png/nft_gallery3.2.png" alt="">
                 </div>
             </div>
         </section>
@@ -294,7 +312,8 @@
             <div class="container custom_container">
                 <div class="row justify-content-center ">
                     <div class=" col-12 col-sm-6 col-lg-4 pt-5 pt-sm-4">
-                        <div class=" d-flex align-items-center text-center justify-content-center flex-column">
+                        <div
+                            class=" d-flex align-items-center text-center justify-content-center flex-column team_card">
                             <img class=" w-100" src="./Assets/images/png/team_pic1.png" alt="">
                             <p class=" ff_sniglet fw-normal fs_base line_h_19 team_position m-0  pt-3 pb-2">CEO</p>
                             <p class=" fw-normal fs_2xl line_h_28 ff_brandon text-white m-0">Fhahroz Iqbal</p>
@@ -315,8 +334,9 @@
                         </div>
                     </div>
                     <div class=" col-12 col-sm-6 col-lg-4 pt-5 pt-sm-4">
-                        <div class=" d-flex align-items-center text-center justify-content-center flex-column">
-                            <img class=" w-100" src="./Assets/images/png/team_pic1.png" alt="">
+                        <div
+                            class=" d-flex align-items-center text-center justify-content-center flex-column team_card">
+                            <img class=" w-100" src="./Assets/images/png/team_pic2.png" alt="">
                             <p class=" ff_sniglet fw-normal fs_base line_h_19 team_position m-0  pt-3 pb-2">CEO</p>
                             <p class=" fw-normal fs_2xl line_h_28 ff_brandon text-white m-0">Fhahroz Iqbal</p>
                             <p class=" ff_sniglet fw-normal fs_base line_h_24 text-white m-0 pt-1 pb_12">Donec consequat
@@ -336,8 +356,9 @@
                         </div>
                     </div>
                     <div class=" col-12 col-sm-6 col-lg-4 pt-5 pt-sm-4">
-                        <div class=" d-flex align-items-center text-center justify-content-center flex-column">
-                            <img class=" w-100" src="./Assets/images/png/team_pic1.png" alt="">
+                        <div
+                            class=" d-flex align-items-center text-center justify-content-center flex-column team_card">
+                            <img class=" w-100" src="./Assets/images/png/team_pic3.png" alt="">
                             <p class=" ff_sniglet fw-normal fs_base line_h_19 team_position m-0  pt-3 pb-2">CEO</p>
                             <p class=" fw-normal fs_2xl line_h_28 ff_brandon text-white m-0">Fhahroz Iqbal</p>
                             <p class=" ff_sniglet fw-normal fs_base line_h_24 text-white m-0 pt-1 pb_12">Donec consequat
@@ -498,7 +519,7 @@
                 </div>
                 <div class=" flex-column d-flex justify-content-center align-items-center text-center ">
                     <div>
-                        <img class=" pb-lg-3 pb-0" src="./Assets/images/png/footer_logo.png" alt="">
+                        <img class=" pb-lg-3 pb-0 footer_logo" src="./Assets/images/png/footer_logo.png" alt="">
                     </div>
                     <ul class="d-flex mb-0 flex-wrap justify-content-center text-center align-items-center gap_30 ps-0">
                         <li><a href="#About"
@@ -507,7 +528,7 @@
                         <li><a href="#Nfts"
                                 class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">Our
                                 NFTs</a></li>
-                        <li><a href="#RoadMap"
+                        <li><a href="#RoadMAp"
                                 class=" text-white ff_brandon fw-normal fs_lg line_h_26 footer_link position-relative">RoadMAp</a>
                         </li>
                         <li><a href="#Team"
@@ -538,10 +559,12 @@
     <!------------------------------ SCRIPTS FOR SLICK SLIDER ------------------------------------->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
         integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
     <script>
         $('.myslider').slick({
             dots: true,
@@ -585,7 +608,7 @@
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 1.,
                         slidesToScroll: 1
                     }
                 }
@@ -593,6 +616,33 @@
                 // settings: "unslick"
                 // instead of a settings object
             ]
+        });
+    </script>
+    <!------------------------------ PRELOADEER ------------------------------------->
+    <script>
+        setTimeout(() => {
+            const preloader = document.getElementById("preloader");
+
+            preloader.style.display = "none";
+
+            document.body.classList.remove("overflow-hidden");
+        }, 3000);
+    </script>
+    <!------------------------------ BACK TO TOP ------------------------------------->
+     <script>
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
         });
     </script>
     <!------------------------------ NAVBAR FUNCTION ------------------------------------->
