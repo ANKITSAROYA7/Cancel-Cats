@@ -646,9 +646,20 @@
     margin-bottom: 0 !important;
 }
 
+.favicon {
+    filter: none !important;
+}
 
 .slick-dots {
     display: none !important;
+}
+
+.mix_bend_multiply{
+    mix-blend-mode: multiply !important;
+}
+
+.pt_28 {
+    padding-top: 28px;
 }
 
 @keyframes scroll {
@@ -858,10 +869,6 @@
 
     .pt_80 {
         padding-top: 80px;
-    }
-
-    .pt_28 {
-        padding-top: 28px;
     }
 
     .pt_110 {
