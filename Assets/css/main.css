@@ -71,11 +71,6 @@
     border-radius: 8px;
 }
 
-.w_logo_custom {
-    width: 37.97px;
-    height: 37.97px;
-}
-
 .line_h_28 {
     line-height: 28.70px;
 }
@@ -87,8 +82,6 @@
 .line_h_57 {
     line-height: 57px;
 }
-
-
 
 .line_h_19 {
     line-height: 19px;
@@ -105,7 +98,7 @@
     display: flex;
     align-items: center;
     position: fixed;
-    background: linear-gradient(0deg, #00EF00 -28.64%, #8000FF 171.6%);
+    background: black;
     z-index: 50 !important;
 }
 
@@ -152,7 +145,7 @@
 
 #button {
     display: inline-block;
-    background: linear-gradient(0deg, #35d3ff -0.64%, #a963fb 103.6%);
+    background: #00EF00;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -207,8 +200,6 @@
     border: 0;
     box-shadow: 2.3277158737182617px 3.4915738105773926px 0px 0px #00EF00;
     transition: linear 300ms;
-
-
 }
 
 .join_btn {
@@ -223,7 +214,7 @@
 }
 
 .join_btn:hover {
-    transform: translateY(-10px);
+    background-color: black;
 }
 
 .roadmappic_size {
@@ -235,11 +226,27 @@
     scale: 1.05;
 }
 
-.team_card {
+.img1_scale {
     transition: all 300ms;
 }
 
-.team_card:hover {
+.team_card1:hover .img1_scale {
+    scale: 1.05;
+}
+
+.img2_scale {
+    transition: all 300ms;
+}
+
+.team_card2:hover .img2_scale {
+    scale: 1.05;
+}
+
+.img3_scale {
+    transition: all 300ms;
+}
+
+.team_card3:hover .img3_scale {
     scale: 1.05;
 }
 
@@ -260,7 +267,7 @@
 
 .bg_line {
     background-image: url("../../Assets/images/png/Roadmap_line.png");
-    background-size: 100% 100%;
+    background-size: 100% 105%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -315,6 +322,7 @@
     transform: translateY(-47px);
 }
 
+
 .cancel_text {
     width: 187px;
     height: 42px;
@@ -338,6 +346,17 @@
     gap: 30px;
 }
 
+.shadow_position {
+    top: -5px;
+    left: -2px;
+    display: none;
+}
+
+.shadow_position:hover {
+    display: block;
+}
+
+
 .border_nft {
     border: 6px !important;
     border-color: white !important;
@@ -350,32 +369,69 @@
     border-radius: 30px;
 }
 
+.border_twitter {
+    border: 2px solid transparent;
+    border-radius: 100%;
+    transition: all 400ms;
+}
+
+.border_twitter:hover {
+    border: 2px solid #96F200;
+    border-radius: 100%;
+    box-shadow: 0 -5px 12px 0 #00EF00, inset 0 -2px 9px 0 #00EF00;
+}
+
+.border_discord {
+    border: 2px solid transparent;
+    border-radius: 100%;
+    transition: all 400ms;
+}
+
+.border_discord:hover {
+    border: 2px solid #05A1EE;
+    border-radius: 100%;
+    box-shadow: 0 -5px 12px 0 #05A1EE, inset 0 -2px 9px 0 #05A1EE;
+}
+
+.border_insta {
+    border: 2px solid transparent;
+    border-radius: 100%;
+    transition: all 400ms;
+}
+
+.border_insta:hover {
+    border: 2px solid #F8900B;
+    border-radius: 100%;
+    box-shadow: 0 -5px 12px 0 #F89110, inset 0 -2px 9px 0 #F89110;
+}
+
+.border_telegram {
+    border: 2px solid transparent;
+    border-radius: 100%;
+    transition: all 400ms;
+}
+
+.border_telegram:hover {
+    border: 2px solid #8E27CD;
+    border-radius: 100%;
+    box-shadow: 0 -5px 12px 0 #9331CF, inset 0 -2px 9px 0 #9331CF;
+}
+
+.logo_w_h {
+    width: 39px;
+    height: 39px;
+}
+
+.w_custom_logo {
+    width: 60%;
+}
+
 .scale_hover {
     transition: linear 200ms;
 }
 
 .scale_hover:hover {
     scale: 1.1;
-}
-
-.hover_green:hover {
-    border-radius: 30px;
-    box-shadow: 1px 1px 18px #00EF00;
-}
-
-.hover_purple:hover {
-    border-radius: 30px;
-    box-shadow: 1px 1px 18px #8F28CD;
-}
-
-.hover_blue:hover {
-    border-radius: 30px;
-    box-shadow: 1px 1px 18px #05A1EE;
-}
-
-.hover_orange:hover {
-    border-radius: 30px;
-    box-shadow: 1px 1px 18px #F8910F;
 }
 
 .connect_btn:hover {
@@ -396,6 +452,26 @@
 .nft_size:hover {
     scale: 1.05;
 }
+
+@keyframes up-and-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.drone_animate {
+    animation: up-and-down 2s infinite ease-in-out;
+}
+
+
 
 /* Accordion */
 
@@ -583,7 +659,7 @@
 
 
 .navbar1 {
-    background: linear-gradient(49deg, #7EF600 20.36%, #DFFC00 114.6%);
+    background: black;
     position: fixed;
     height: 100%;
     width: 100%;
@@ -654,7 +730,7 @@
     display: none !important;
 }
 
-.mix_bend_multiply{
+.mix_bend_multiply {
     mix-blend-mode: multiply !important;
 }
 
